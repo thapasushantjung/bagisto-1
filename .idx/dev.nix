@@ -10,6 +10,7 @@
     pkgs.nodejs_latest
     pkgs.php82Extensions.gd
     pkgs.php82Extensions.intl
+  
 
   ];
 
