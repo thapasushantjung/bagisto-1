@@ -30,3 +30,71 @@ yarn.lock
 yarn-error.log
 /test-results
 /playwright-report
+
+# Nix shell local MySQL/MariaDB database (from shell.nix)
+/mysql/
+/mysql/*
+mysql.log
+
+# Development database directory
+/dev-db/
+
+# Laravel framework cache and logs
+/bootstrap/cache/*.php
+/storage/logs/*
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/app/public/*
+/storage/debugbar/
+
+# Additional build files
+/public/build/
+/public/mix-manifest.json
+
+# Composer
+composer.phar
+auth.json
+
+# Node.js additional files
+npm-debug.log*
+yarn-debug.log*
+.npm
+.yarn-integrity
+.pnp
+.pnp.js
+
+# IDE and Editor files
+*.sublime-project
+*.sublime-workspace
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Test files
+test-db.php
+phpunit.xml.bak
+
+# Backup files
+*.backup
+*.bak
+*.orig
