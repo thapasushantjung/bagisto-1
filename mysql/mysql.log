@@ -1,0 +1,2 @@
+2025-06-27 11:48:06 0 [Note] Starting MariaDB 10.11.13-MariaDB source revision 8fb09426b98583916ccfd4f8c49741adc115bac3 server_uid +eqYmPpAQx+3PIZQto7UWchMyc8= as process 40379
+2025-06-27 11:48:06 0 [ERROR] mysqld: Can't lock aria control file '/home/hancy/bagisto-1/mysql/data/aria_log_control' for exclusive use, error: 11. Will retry for 30 seconds
