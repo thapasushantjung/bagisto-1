@@ -98,3 +98,5 @@ phpunit.xml.bak
 *.backup
 *.bak
 *.orig
+mysql/data/ib_logfile*
+mysql/data/ibdata*
