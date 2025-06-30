@@ -16,7 +16,7 @@ in pkgs.mkShell {
     MYSQL_DATADIR="$MYSQL_HOME/data"
     export MYSQL_UNIX_PORT="$MYSQL_HOME/mysql.sock"
     MYSQL_PID_FILE="$MYSQL_HOME/mysql.pid"
-    alias mysql='mysql -u root'
+    alias mysql='mysql -u root --socket="$MYSQL_UNIX_PORT"'
 
     if [ ! -d "$MYSQL_HOME" ]; then
       # Make sure to use normal authentication method otherwise we can only
